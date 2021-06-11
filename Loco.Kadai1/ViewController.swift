@@ -1,5 +1,14 @@
 import UIKit
 
+// 課題１
+//
+// ・コメントのインデント
+//　//コメント　　←のように、近づけて書く
+//
+// ・メソッド名の先頭は動詞
+// ・メソッド名にも privateを付ける
+// ・メソッド名は具体的な命名　calculateAndDisplayTotal()
+
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
     @IBOutlet private weak var secondField: UITextField!
@@ -12,10 +21,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        numberPadKeyboardType()
+        setupKeyboardType()
     }
 
-//    キーボードを閉じる
+    // キーボードを閉じる
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         firstField.resignFirstResponder()
         secondField.resignFirstResponder()
@@ -23,16 +32,16 @@ class ViewController: UIViewController {
         fourthField.resignFirstResponder()
         fifthField.resignFirstResponder()
     }
-//　　　キーボード数字表示のみ
-    func numberPadKeyboardType() {
-        firstField.keyboardType = UIKeyboardType.numberPad
-        secondField.keyboardType = UIKeyboardType.numberPad
-        thirdField.keyboardType = UIKeyboardType.numberPad
-        fourthField.keyboardType = UIKeyboardType.numberPad
-        fifthField.keyboardType = UIKeyboardType.numberPad
+    // キーボード数字表示のみ
+   private func setupKeyboardType() {
+        firstField.keyboardType = .numberPad
+        secondField.keyboardType = .numberPad
+        thirdField.keyboardType = .numberPad
+        fourthField.keyboardType = .numberPad
+        fifthField.keyboardType = .numberPad
     }
-//  　　計算式
-    func calculationMethod () {
+    // 計算式
+   private func calculateAndDisplay () {
         let firstFieldNum = Int(firstField.text!) ?? 0
         let secondFieldNum = Int(secondField.text!) ?? 0
         let thirdFieldNum = Int(thirdField.text!) ?? 0
@@ -45,6 +54,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func calculationButton(_ sender: Any) {
-        calculationMethod()
+        calculateAndDisplay()
     }
 }
