@@ -12,10 +12,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        numberPadKeyboardType()
+        setupKeyboardType()
     }
 
-//    キーボードを閉じる
+    // キーボードを閉じる
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         firstField.resignFirstResponder()
         secondField.resignFirstResponder()
@@ -23,16 +23,18 @@ class ViewController: UIViewController {
         fourthField.resignFirstResponder()
         fifthField.resignFirstResponder()
     }
-//　　　キーボード数字表示のみ
-    func numberPadKeyboardType() {
-        firstField.keyboardType = UIKeyboardType.numberPad
-        secondField.keyboardType = UIKeyboardType.numberPad
-        thirdField.keyboardType = UIKeyboardType.numberPad
-        fourthField.keyboardType = UIKeyboardType.numberPad
-        fifthField.keyboardType = UIKeyboardType.numberPad
+
+    // キーボード数字表示のみ
+    private func setupKeyboardType() {
+        firstField.keyboardType = .numberPad
+        secondField.keyboardType = .numberPad
+        thirdField.keyboardType = .numberPad
+        fourthField.keyboardType = .numberPad
+        fifthField.keyboardType = .numberPad
     }
-//  　　計算式
-    func calculationMethod () {
+
+    // 計算式
+    private func calculateAndDisplayTotal() {
         let firstFieldNum = Int(firstField.text!) ?? 0
         let secondFieldNum = Int(secondField.text!) ?? 0
         let thirdFieldNum = Int(thirdField.text!) ?? 0
@@ -45,6 +47,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func calculationButton(_ sender: Any) {
-        calculationMethod()
+        calculateAndDisplayTotal()
     }
 }
