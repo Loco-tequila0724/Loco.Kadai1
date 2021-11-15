@@ -1,5 +1,13 @@
 import UIKit
-
+//　テスト
+// 課題１
+//
+// ・コメントのインデント
+//　//コメント　　←のように、近づけて書く
+//
+// ・メソッド名の先頭は動詞
+// ・メソッド名にも privateを付ける
+// ・メソッド名は具体的な命名　calculateAndDisplayTotal()
 
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
