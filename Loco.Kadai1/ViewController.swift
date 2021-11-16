@@ -1,6 +1,7 @@
 import UIKit
 //初期化
 //テスト
+//テスト２
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
     @IBOutlet private weak var secondField: UITextField!
