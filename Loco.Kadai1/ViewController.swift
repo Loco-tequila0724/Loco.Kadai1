@@ -1,6 +1,13 @@
 import UIKit
 //初期化
 //初期化２
+//初期化 3
+//初期化 4
+
+// branchOneを作った
+// switchBranchを作った
+
+
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
     @IBOutlet private weak var secondField: UITextField!
