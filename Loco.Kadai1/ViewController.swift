@@ -9,7 +9,8 @@ import UIKit
 // switchBranchを作った
 // switchBranch を mainへ マージしてみた
 
->>>>>>> main
+// できない！
+
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
     @IBOutlet private weak var secondField: UITextField!
