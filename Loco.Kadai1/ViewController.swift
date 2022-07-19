@@ -11,9 +11,11 @@ import UIKit
 
 // できない！
 // できたやん！
-// 完全に理解した！
+// 完全に理解した！cd
 
 //　テストします
+
+// 間違えた
 
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
