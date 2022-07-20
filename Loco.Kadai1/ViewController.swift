@@ -3,6 +3,8 @@ import UIKit
 
 //222
 
+// mergeTestした
+
 
 //だったらいけるぜ
 //初期化２
