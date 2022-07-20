@@ -15,7 +15,7 @@ import UIKit
 
 //　テストします
 
-// 間違えた
+// 修正しました！
 
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
