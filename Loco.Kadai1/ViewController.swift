@@ -1,5 +1,9 @@
 import UIKit
 //初期化
+
+//222
+
+
 //だったらいけるぜ
 //初期化２
 //初期化 3
@@ -16,6 +20,8 @@ import UIKit
 //　テストします
 
 // 修正しました！
+
+
 
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
