@@ -7,7 +7,8 @@ import UIKit
 
 // もう一度試す
 
-
+// お次はマージを試す
+//ちょっとやり直したい git commit --amend -m "コミット"
 
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
