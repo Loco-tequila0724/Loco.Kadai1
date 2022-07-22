@@ -1,37 +1,6 @@
 import UIKit
 //初期化
 
-// main2やったで
-
-//222
-
-// ファストマージするで
-// 次に進む
-//マージした
-
-// mainに戻りました
-
-// mergeTestした
-// コンフリクトするとおも
-
-
-//だったらいけるぜ
-//初期化２
-//初期化 3
-//初期化 4
-
-// branchOneを作った
-// switchBranchを作った
-// switchBranch を mainへ マージしてみた
-
-// できない！
-// できたやん！
-// 完全に理解した！cd
-
-//　テストします
-
-// 修正しました！
-
 
 
 class ViewController: UIViewController {
