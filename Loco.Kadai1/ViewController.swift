@@ -1,7 +1,7 @@
 import UIKit
 //初期化
 //222
-
+// main2をブランチ
 
 // mainに戻った
 
