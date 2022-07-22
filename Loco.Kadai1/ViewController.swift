@@ -5,6 +5,8 @@ import UIKit
 
 // mainに戻った
 
+// もう一度試す
+
 
 
 class ViewController: UIViewController {
