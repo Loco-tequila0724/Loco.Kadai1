@@ -1,15 +1,5 @@
 import UIKit
-//初期化
-
-// スタッシュを試す
-
-
-// スタッシュを戻した
-
-// テスと
-
-
-
+// スタッシュ 1
 
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
