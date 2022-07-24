@@ -1,32 +1,5 @@
 import UIKit
-//初期化
 
-//222
-// main2をブランチ
-
-// mainに戻った
-
-// もう一度試す
-
-// お次はマージを試す
-//ちょっとやり直したい git commit --amend -m "コミット"
-//だったらいけるぜ
-//初期化２
-//初期化 3
-//初期化 4
-
-// branchOneを作った
-// switchBranchを作った
-// switchBranch を mainへ マージしてみた
-
-// できない！
-// できたやん！
-// 完全に理解した！
-
-// commit -v をみます
-
-// git diff するで
->>>>>>> Stashed changes
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
     @IBOutlet private weak var secondField: UITextField!
