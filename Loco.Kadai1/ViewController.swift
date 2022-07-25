@@ -1,5 +1,18 @@
 import UIKit
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
     @IBOutlet private weak var secondField: UITextField!
@@ -11,7 +24,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupKeyboardType()
     }
 
