@@ -1,5 +1,4 @@
 import UIKit
-// スタッシュ 1
 
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
