@@ -1,5 +1,11 @@
 import UIKit
 
+// origin/main → git switch -C main した mainを書き換え
+
+
+
+
+
 class ViewController: UIViewController {
     @IBOutlet private weak var firstField: UITextField!
     @IBOutlet private weak var secondField: UITextField!
